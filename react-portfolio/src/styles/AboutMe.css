@@ -5,7 +5,7 @@
   color: #6c8b6a;
 }
 
-.about {
+.main {
   width: 100%;
   height: calc(100vh - 100px);
   display: flex;
@@ -17,15 +17,15 @@
   color: #f0f0f0;
 }
 
-.about h2 {
+.main h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
   color: #ded189;
   height: 50px;
 }
 
-.about .prompt {
-  width: 40%;
+.main .prompt {
+  width: 60%;
   font-size: 30px;
 }
 .prompt svg {
@@ -57,11 +57,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about h2 {
+  .main h2 {
     font-size: 40px;
   }
 
-  .about .prompt {
+  .main .prompt {
     margin-top: 10px;
     font-size: 20px;
     width: 80%;

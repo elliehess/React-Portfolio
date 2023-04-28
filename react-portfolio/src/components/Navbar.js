@@ -17,9 +17,8 @@ function Navbar(){
                 <button onClick={()=> {setExpandNavbar((prev) => !prev)}}><FaAlignJustify/></button>
             </div>
             <div className='links'>
-                <Link to ='/'>Home </Link>
-                <Link to ='/aboutme'>About Me </Link>
-                <Link to ='/portfolio'>Portfolio </Link>
+                <Link to ='/'>About Me </Link>
+                 <Link to ='/portfolio'>Portfolio </Link>
                 <Link to ='/contact'>Contact </Link>
                 <Link to ='/resume'>Resume</Link>
             </div>
