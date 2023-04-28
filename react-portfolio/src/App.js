@@ -8,8 +8,6 @@ import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay'
-import avatar from '../src/assets/avatar.jpg';
-
 
 
 
@@ -17,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header image={avatar}/>
+        <Header />
         <Navbar/>
         <Routes>
           <Route path = "/" element={<AboutMe />} />
