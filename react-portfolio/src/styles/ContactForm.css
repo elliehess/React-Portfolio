@@ -87,11 +87,11 @@ form {
   
   
   @media only screen and (max-width: 600px) {
-    .main h2 {
+    .contact h2 {
       font-size: 40px;
     }
   
-    .main .prompt {
+    .contact .prompt {
       margin-top: 10px;
       font-size: 20px;
       width: 80%;

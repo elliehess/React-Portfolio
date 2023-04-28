@@ -8,6 +8,7 @@ function AboutMe(){
             <div className='main'>
                 <h2>Hi, my name is Ellie</h2>
                 <div className='prompt'><p> A recent graduate from Michigan State University's Coding Bootcamp, I am ready to code!{'\n'}
+                Although I am new to the world of coding, I have years of management experience and working with a team in the Hospitality field.
                 Check out some of my recent projects in my Portfolio page as well as some of my Skills down below.
 
                 </p>
