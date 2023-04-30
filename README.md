@@ -1,4 +1,4 @@
-# React Portfolio
+# [![My Skills](https://skillicons.dev/icons?i=react&perline=1)](https://skillicons.dev) React Portfolio
 
 ## Description
 
