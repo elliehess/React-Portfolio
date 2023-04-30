@@ -4,6 +4,8 @@ import PetStar from '../assets/PetStar.jpg';
 import AutoMD from '../assets/AutoMD.jpg';
 import Express from '../assets/Express.jpg';
 import Editor from '../assets/editor.jpg';
+import Social from '../assets/social.jpg'
+import Ecommerce from '../assets/ecommerce.jpg'
 
 
 import '../styles/Portfolio.css';
@@ -18,8 +20,8 @@ function Portfolio(){
             <Project name="PetStar FullStack App" image={PetStar} />
             <Project name="AutoMD FrontEnd App" image={AutoMD}/>
             <Project name="Note Taker ExpressJS" image={Express}/>
-            <Project name="AutoMD FrontEnd App" image={AutoMD}/>
-            <Project name="AutoMD FrontEnd App" image={AutoMD}/>
+            <Project name="MongoSocial NoSQL" image={Social}/>
+            <Project name="E-Commerce BackEnd/MySQL" image={Ecommerce}/>
             <Project name="Text Editor PWA" image={Editor}/>
             </div>
 
