@@ -61,6 +61,17 @@
     font-size: 25px;
     color: black;
   }
+
+  .githubIcon {
+    padding-left: 200px;
+    color: black;
+  }
+
+  .appIcon a {
+    color: black;
+  }
+
+  
   
   @media only screen and (max-width: 1300px) {
     .projectList {
