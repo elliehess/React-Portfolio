@@ -16,8 +16,9 @@ This is a deployed React portfolio of work spamples so that a potential employer
 
 ## Visuals
 
+![localhost_3001_](https://user-images.githubusercontent.com/118075347/235374146-408df0be-7c6e-4f1d-ae06-a3d9fafca87a.png)
 
-[Click here for Walkthrough Video](https://user-images.githubusercontent.com/118075347/223225148-6366cdc5-3834-4519-b4b0-710bff0c844c.mp4)
+[Click here for the Deployed Portfolio]()
 
 
 ## Installation
