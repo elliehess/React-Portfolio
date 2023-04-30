@@ -7,8 +7,6 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import ProjectDisplay from './pages/ProjectDisplay'
-
 
 
 function App() {
@@ -20,7 +18,6 @@ function App() {
         <Routes>
           <Route path = "/" element={<AboutMe />} />
           <Route path = "/portfolio" element={<Portfolio />} />
-          <Route path = "/project/:id" element={<ProjectDisplay />} />
           <Route path = "/contact" element={<Contact />} />
           <Route path = "/resume" element={<Resume/>} />
         </Routes>

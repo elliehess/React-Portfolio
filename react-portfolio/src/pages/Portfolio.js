@@ -17,12 +17,12 @@ function Portfolio(){
         <div className='projects'>
             <h1>My Projects</h1>
             <div className='projectList'>
-            <Project name="PetStar FullStack App" image={PetStar} />
-            <Project name="AutoMD FrontEnd App" image={AutoMD}/>
-            <Project name="Note Taker ExpressJS" image={Express}/>
-            <Project name="MongoSocial NoSQL" image={Social}/>
-            <Project name="E-Commerce BackEnd/MySQL" image={Ecommerce}/>
-            <Project name="Text Editor PWA" image={Editor}/>
+            <Project name="PetStar FullStack App" image={PetStar} url='https://github.com/elliehess/PetStar'/>
+            <Project name="AutoMD FrontEnd App" image={AutoMD} url='https://github.com/elliehess/project-1-automd'/>
+            <Project name="Note Taker ExpressJS" image={Express} url='https://github.com/elliehess/module-11-note-taker'/>
+            <Project name="MongoSocial NoSQL" image={Social} url='https://github.com/elliehess/module-18-NoSQL-MongoSocial'/>
+            <Project name="E-Commerce BackEnd/MySQL" image={Ecommerce} url='https://github.com/elliehess/module-13-ECommerce-ORM'/>
+            <Project name="Text Editor PWA" image={Editor} url='https://github.com/elliehess/module-19-text-editor-PWA'/>
             </div>
 
         </div>
