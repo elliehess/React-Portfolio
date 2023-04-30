@@ -18,6 +18,7 @@ function Navbar(){
                 <button onClick={()=> {setExpandNavbar((prev) => !prev)}}>
                 <FaAlignJustify/></button>
             </div>
+            {/* links to each navbar item to render the appropriate page */}
             <div className='links'>
                 <Link to ='/'>About Me </Link>
                  <Link to ='/Portfolio'>Portfolio </Link>
