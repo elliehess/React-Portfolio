@@ -24,8 +24,8 @@ function AboutMe(){
                     </li>
                     <li className='item'>
                         <h2>Back-End</h2>
-                        <span>MySql, NodeJS, ExpressJS, GraphQL, ApolloServer
-                            MondoDB 
+                        <span>SQL, Tableau, NodeJS, ExpressJS, GraphQL, ApolloServer,
+                            MongoDB, Git 
                         </span>
                     </li>
                     <li className='item'>

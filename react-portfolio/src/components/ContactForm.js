@@ -44,6 +44,13 @@ function ContactForm() {
     }
 
     // Handle form submission
+
+    setName("");
+    setEmail("");
+    setMessage("");
+    setRequiredError("");
+    setEmailError("");
+    alert("Your message has been successfully sent!");
   }
 
   return (

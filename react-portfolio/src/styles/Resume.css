@@ -25,7 +25,7 @@
     color: white;
   } */
   
-  .skills {
+  .skills_resume {
     font-size: 24px;
     max-width: 700px;
     margin: 0 auto;
@@ -33,17 +33,56 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .skills a {
-    text-decoration: none;
+    color: #6c8b6a;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
 
-  .skills:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
-    cursor: pointer;
+  .skills_resume h1 {
+    padding: 10px;
   }
+  
+  .skills_resume a {
+    text-decoration: none;
+    color: #6c8b6a;
+  }
+
+
+  /* Button.css */
+.download-button {
+  position: relative;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.download-button:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
   
   @media only screen and (max-width: 600px) {
     .resume h2 {
@@ -56,14 +95,14 @@
       width: 80%;
     }
   
-    .skills {
+    .skills_resume {
       text-align: center;
     }
     .list {
       padding: 0;
     }
   
-    .skills h2 {
+    .skills_resume h2 {
       font-size: 30px;
     }
   }
